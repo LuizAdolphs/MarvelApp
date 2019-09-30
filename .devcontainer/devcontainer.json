@@ -7,7 +7,7 @@
 	"context": "..",
 
 	// Update the 'dockerFile' property if you aren't using the standard 'Dockerfile' filename.
-	"dockerFile": "../Dockerfile",
+	"dockerFile": "../dockerfiles/dev/Dockerfile",
 
 	// The optional 'runArgs' property can be used to specify additional runtime arguments.
 	"runArgs": [
@@ -44,7 +44,5 @@
 		"dbaeumer.vscode-eslint",
 		"esbenp.prettier-vscode"
 	],
-	"appPort": [ 3000, "8921:5000" ],
-
-	"postCreateCommand": "cp -R /temp/node_modules /workspaces/MarvelApp/app/"
+	"appPort": [ 3000, "8921:5000" ]
 }
